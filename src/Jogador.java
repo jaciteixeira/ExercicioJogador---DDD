@@ -1,6 +1,10 @@
 
 public abstract class Jogador {
 	
+
+	private int x;
+	private int y;
+
 	private String nome = "anonimo";
 	private int xp = 100;
 	private int hp = 100;
@@ -74,5 +78,13 @@ public abstract class Jogador {
 	}
 
 	
+	public void setX(int x) {
+		this.x = x;
+	}
+
+	public void setY(int y) {
+		this.y = y;
+	}
+
 
 }

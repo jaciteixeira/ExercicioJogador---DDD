@@ -1,5 +1,5 @@
 
-public class Jogador {
+public abstract class Jogador {
 	
 	private String nome = "anonimo";
 	private int xp = 100;

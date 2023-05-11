@@ -1,7 +1,6 @@
 
 public interface Movimentacao {
 	
-	public default int mover(int x, int y){
-		return x + y;
-	}
+		public void mover(int x , int y);
+	
 }

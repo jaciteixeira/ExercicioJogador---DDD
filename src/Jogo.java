@@ -2,8 +2,8 @@
 public class Jogo {
 
 	public static void main(String[] args) {
-		Jogador jogador1 = new Guerreiro("Joao");
-		Jogador jogador2 = new Mago(5);
+		Guerreiro jogador1 = new Guerreiro("Joao");
+		var jogador2 = new Mago(5);
 		
 		//jogador1.nome = "Joao";
 		

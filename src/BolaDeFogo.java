@@ -1,5 +1,5 @@
 
-public class BolaDeFogo {
+public class BolaDeFogo implements Movimentacao {
 
 	
 	private int poder;
@@ -9,6 +9,8 @@ public class BolaDeFogo {
 		this.poder = poder;
 	}
 	
-	
+	@Override
+	public void mover(int x, int y) {
+	}
 	
 }
